@@ -152,6 +152,10 @@ def test_multiply_primes():
 
 
 def multiply_primes(m,n):
+    total = 0
+    for k in range (m-n+1):
+        total = k * (m-n+1)
+        return sum(total)
     """
        #    What comes in:
        #      -- A positive integer m.
